@@ -1,0 +1,21 @@
+#+TITLE: 怪异现象搜索小组
+
+* 安装
+
+可以从[[https://github.com/hxb2012/melpa/][我的美尔巴]]安装 ~ssp~
+
+* 按键
+
+| 空格                  |         | 播放/暂停  |
+| 左键单击              |         | 跳转       |
+| <beginning-of-buffer> | <       | 跳到开始   |
+| <end-of-buffer>       | >       | 跳到末尾   |
+| <backward-char>       | C-b     | 后退10秒   |
+| <forward-char>        | C-f     | 前进10秒   |
+| <backward-word>       | M-b     | 后退60秒   |
+| <forward-word>        | M-f     | 前进60秒   |
+| <backward-sentence>   | M-a     | 后退10分   |
+| <forward-sentence>    | M-e     | 前进10分   |
+| <set-mark-command>    | C-SPC   | 设置A标记  |
+| <narrow-to-region>    | C-x n n | 设置B标记  |
+| <widen>               | C-x n w | 取消AB标记 |
